@@ -1,2 +1,2 @@
 # Projet
-Architecture MVVM Dagger Retrofit Room Mockito
+Architecture MVVM Dagger Retrofit Room Mockito RxJava, RxAndroid
