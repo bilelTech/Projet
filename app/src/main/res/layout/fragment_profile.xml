@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="60dp"
+                android:orientation="vertical">
+            <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="233dp">
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="233dp"
+                        android:background="@drawable/gradient"
+                        android:orientation="vertical"/>
+
+                <include layout="@layout/nevigationtoolbar"/>
+
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="20dp"
+                        android:layout_gravity="bottom">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/profile_image"
+                            android:layout_width="59.5dp"
+                            android:layout_height="59.5dp"
+                            android:src="@drawable/men5"
+                            android:layout_marginStart="22.1dp"/>
+
+                    <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginStart="16.3dp">
+
+                        <TextView
+                                android:fontFamily="@font/roboto_regular"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/name_profile"
+                                android:textSize="23sp"
+                                android:textColor="#ffffff"/>
+
+                        <TextView
+                                android:fontFamily="@font/roboto_regular"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/addr_profile"
+                                android:textColor="#ffffff"
+                                android:textSize="14.4sp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="15dp"
+                    android:layout_marginTop="16.3dp"
+                    android:background="#ffffff">
+
+                <ImageView
+                        android:contentDescription="@string/photo"
+                        android:id="@+id/imagehistory"
+                        android:layout_width="42.3dp"
+                        android:layout_height="42.3dp"
+                        android:src="@drawable/orders_history"
+                        android:layout_marginStart="16dp"/>
+
+                <TextView
+                        android:fontFamily="@font/roboto_regular"
+                        android:id="@+id/tv1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="9.5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:text="@string/order_history"
+                        android:textColor="#4a4a4a"
+                        android:textSize="14.4sp"/>
+                <ImageView
+                        android:contentDescription="@string/photo"
+                        android:id="@+id/image1"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@drawable/ic_chevron"
+                        android:layout_marginTop="10dp"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                <androidx.recyclerview.widget.RecyclerView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/profile_rcv"
+                        android:background="#ffffff"
+                        android:nestedScrollingEnabled="false"
+                        android:layout_marginTop="16.3dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+{
+  "screens": [
+    {
+      "id": 1,
+      "title": "Fresh Food",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, consectetur  consectetur adipiscing eli",
+      "screenImg": "img1"
+    },
+    {
+      "id": 2,
+      "title": "Fast Delivery",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, consectetur  consectetur adipiscing elit",
+      "screenImg": "img2"
+    },
+    {
+      "id": 3,
+      "title": "Easy Payment",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, consectetur  consectetur adipiscing elit",
+      "screenImg": "img3"
+    }
+  ]
+}

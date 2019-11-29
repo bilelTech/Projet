@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">TemplateMVVM</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="country">Country</string>
+    <string name="city">City</string>
+    <string name="logintxt">Login</string>
+    <string name="get_started">Get Started</string>
+    <string name="skip">Skip</string>
+    <string name="title_home">Home</string>
+    <string name="title_fav">Favorite</string>
+    <string name="title_card">Card</string>
+    <string name="title_profile">Profile</string>
+    <string name="register">Sign Up</string>
+    <string name="action_logout">Log out</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="username">Username</string>
+    <string name="name">Name</string>
+    <string name="connect_fb">CONNECT WITH FACEBOOK</string>
+    <string name="title_app">HI RESTO!</string>
+    <string name="number_review_product">238 reviews</string>
+    <string name="addr_product">473 Keeling Station</string>
+    <string name="title_product">Wild Honey at Scotts Square</string>
+    <string name="photo">Photo</string>
+    <string name="order_history">Orders History</string>
+    <string name="name_profile">Erik Walters</string>
+    <string name="addr_profile">5277 Zander Knolls Suite</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="title_product_detail">Cocobolo Poolside Bar + Grill</string>
+    <string name="addr_product_detail">60 Kub Pines Apt. 797</string>
+    <string name="open_in">OPEN IN</string>
+    <string name="time_open">10:00 - 23:00</string>
+    <string name="contact">Contact</string>
+    <string name="photos">PHOTOS</string>
+    <string name="descriptions">DESCRIPTIONS</string>
+    <string name="hours_ago">3 hours ago</string>
+    <string name="detail_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua.Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Rhoncus dolor purus non
+        enim praesent elementum. Pellentesque massa
+        placerat duis ultricies lacus sed turpis tincidunt id.Morbi
+        tristique senectus et netus et.
+    </string>
+    <string name="book_table">Book a table</string>
+    <string name="desc">So we needed up ordering the deep fried salmon roll with Chinese hot mustard and wasabi noodles
+        with salmon.
+    </string>
+    <string name="vincent">Vincent King</string>
+    <string name="ellen">Ellen McLaughlin</string>
+    <string name="see_reviews">See all reviews</string>
+    <string name="reviews">REVIEWS</string>
+    <string name="view_more">View more</string>
+    <string name="see_categories">See all categories</string>
+    <string name="menus">MENU</string>
+
+    <string name="title_activity_on_boarding">onBoardingActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
